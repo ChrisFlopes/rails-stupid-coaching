@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>Stupid Coaching</h1>
+  <div class="box-item">
+    <p><em>Your Question:</em></p>
+    <p><%= @question.capitalize %></p>
+  </div>
+  <div class="box-item">
+    <p><em>Coach's response:</em></p>
+    <p><%= @answer.capitalize %></p>
+  </div>
+<%= link_to 'Ask another question', ask_path %>
+</div>
